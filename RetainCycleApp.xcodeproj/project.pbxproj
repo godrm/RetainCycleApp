@@ -11,13 +11,14 @@
 		83003FA5246A4154009F7F7F /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83003FA4246A4154009F7F7F /* RedViewController.swift */; };
 		835F82F924699CBD00D4ECE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F82F824699CBD00D4ECE7 /* AppDelegate.swift */; };
 		835F82FB24699CBD00D4ECE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F82FA24699CBD00D4ECE7 /* SceneDelegate.swift */; };
-		835F82FD24699CBD00D4ECE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F82FC24699CBD00D4ECE7 /* ViewController.swift */; };
+		835F82FD24699CBD00D4ECE7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F82FC24699CBD00D4ECE7 /* MenuViewController.swift */; };
 		835F830024699CBD00D4ECE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835F82FE24699CBD00D4ECE7 /* Main.storyboard */; };
 		835F830224699CBF00D4ECE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835F830124699CBF00D4ECE7 /* Assets.xcassets */; };
 		835F830524699CBF00D4ECE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835F830324699CBF00D4ECE7 /* LaunchScreen.storyboard */; };
 		835F830D24699D3000D4ECE7 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F830C24699D3000D4ECE7 /* BlueViewController.swift */; };
 		835F830F24699D3700D4ECE7 /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F830E24699D3700D4ECE7 /* YellowViewController.swift */; };
 		835F831124699EED00D4ECE7 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835F831024699EED00D4ECE7 /* PurpleViewController.swift */; };
+		835F8313246C36A400D4ECE7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 835F8312246C36A400D4ECE7 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +27,7 @@
 		835F82F524699CBD00D4ECE7 /* RetainCycleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetainCycleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		835F82F824699CBD00D4ECE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		835F82FA24699CBD00D4ECE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		835F82FC24699CBD00D4ECE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		835F82FC24699CBD00D4ECE7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		835F82FF24699CBD00D4ECE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		835F830124699CBF00D4ECE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		835F830424699CBF00D4ECE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -34,6 +35,7 @@
 		835F830C24699D3000D4ECE7 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		835F830E24699D3700D4ECE7 /* YellowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
 		835F831024699EED00D4ECE7 /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
+		835F8312246C36A400D4ECE7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 		835F82EC24699CBD00D4ECE7 = {
 			isa = PBXGroup;
 			children = (
+				835F8312246C36A400D4ECE7 /* README.md */,
 				835F82F724699CBD00D4ECE7 /* RetainCycleApp */,
 				835F82F624699CBD00D4ECE7 /* Products */,
 			);
@@ -68,7 +71,7 @@
 			children = (
 				835F82F824699CBD00D4ECE7 /* AppDelegate.swift */,
 				835F82FA24699CBD00D4ECE7 /* SceneDelegate.swift */,
-				835F82FC24699CBD00D4ECE7 /* ViewController.swift */,
+				835F82FC24699CBD00D4ECE7 /* MenuViewController.swift */,
 				83003FA4246A4154009F7F7F /* RedViewController.swift */,
 				835F830C24699D3000D4ECE7 /* BlueViewController.swift */,
 				835F830E24699D3700D4ECE7 /* YellowViewController.swift */,
@@ -142,6 +145,7 @@
 			files = (
 				835F830524699CBF00D4ECE7 /* LaunchScreen.storyboard in Resources */,
 				835F830224699CBF00D4ECE7 /* Assets.xcassets in Resources */,
+				835F8313246C36A400D4ECE7 /* README.md in Resources */,
 				835F830024699CBD00D4ECE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				835F82FD24699CBD00D4ECE7 /* ViewController.swift in Sources */,
+				835F82FD24699CBD00D4ECE7 /* MenuViewController.swift in Sources */,
 				835F82F924699CBD00D4ECE7 /* AppDelegate.swift in Sources */,
 				835F831124699EED00D4ECE7 /* PurpleViewController.swift in Sources */,
 				83003FA3246A4034009F7F7F /* CustomView.swift in Sources */,
